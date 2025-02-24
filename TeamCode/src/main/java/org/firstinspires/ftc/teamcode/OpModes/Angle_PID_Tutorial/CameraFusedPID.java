@@ -44,11 +44,11 @@ public class CameraFusedPID extends LinearOpMode {
     /** MAKE SURE TO CHANGE THE FOV AND THE RESOLUTIONS ACCORDINGLY **/
     private static final int CAMERA_WIDTH = 640; // width  of wanted camera resolution
     private static final int CAMERA_HEIGHT = 360; // height of wanted camera resolution
-    private static final double FOV = 40;
+    private static final double FOV = 55;
 
     // Calculate the distance using the formula
     public static final double objectWidthInRealWorldUnits = 3.75;  // Replace with the actual width of the object in real-world units
-    public static final double focalLength = 728;  // Replace with the focal length of the camera in pixels
+    public static final double focalLength = 1430;  // Replace with the focal length of the camera in pixels
 
 
     @Override
